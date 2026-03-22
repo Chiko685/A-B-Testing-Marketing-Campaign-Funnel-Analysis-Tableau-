@@ -7,36 +7,97 @@ Interactive Dashboard: [https://public.tableau.com/views/ABtesting_1773769952566
 <img width="2048" height="1151" alt="Cost   Conversion Analysis" src="https://github.com/user-attachments/assets/a8ef4b6e-0c9e-4e11-a3b0-1e42d0a153d8" />
 <img width="2048" height="1151" alt="Funnel Comparison" src="https://github.com/user-attachments/assets/28ce2fa2-6ffd-4967-a948-94a46888aefb" />
 
+---
 
-## 🛠️ Tech Stack
-      - Data Visualization: Tableau Desktop / Tableau Public
+## 🗂️ Project Overview
 
-      - Data Source: CSV (Control & Test Group datasets)
+This project analyzes marketing campaign performance using A/B testing methodology. The dashboard was built in Tableau and covers:
 
-      - Analysis Method: A/B Testing, Conversion Funnel Analysis, Marketing Analytics
+- Total spend & purchase comparison
+- Cost efficiency metrics (CPM, CPC, CTR)
+- Conversion rate breakdown across the funnel
+- Daily spend trends
+- Full funnel analysis (Impressions → Purchases)
 
-## 📊 Key Metrics Analyzed
-    ^^ CTR (Click-Through Rate): Measuring ad creative engagement.
+---
 
-    ^^ Conversion Rate: Assessing the campaign's success in driving actual sales.
+## 📈 Key Findings
 
-    ^^ Cost per Purchase (CPP): Evaluating the cost efficiency of each successful transaction.
+### 🏆 Winner: Campaign B (Test Campaign)
 
-    ^^ Funnel Progression: Analyzing user drop-off points from Impressions to Purchase.
+| Metric | Campaign A (Control) | Campaign B (Test) |
+|---|---|---|
+| Total Spend | $68,653 | $76,892 |
+| Total Purchases | 15,161 | 15,637 |
+| Cost per Purchase | $4.53 | $4.92 |
+| Overall Conversion Rate | 0.48% | **0.70%** |
 
-## 💡 Key Insights
-Based on the dashboard analysis, the primary findings are:
+> **Campaign B achieved a 46% higher overall conversion rate** despite a slightly higher cost per purchase.
 
-    # The Winner: Campaign B (Test) outperformed Campaign A with a 0.70% Conversion Rate (vs. 0.48% for Campaign A).
+---
 
-    # Superior Engagement: Campaign B achieved nearly double the CTR (8.09%) compared to Campaign A (4.86%), indicating that the Test content is significantly more relevant to the target audience.
+## 💰 Cost Analysis
 
-    # Quality Over Quantity: While Campaign A had a higher top-of-funnel Reach, Campaign B generated more Total Purchases (15,637) by attracting a more qualified and segmented audience.
+| Metric | Campaign A | Campaign B |
+|---|---|---|
+| CPM | $22 | $34 |
+| CPC | $0.44 | $0.42 |
+| CTR | 4.86% | **8.09%** |
 
-    # Funnel Efficiency: Campaign B showed a 59.13% Purchase Rate, far exceeding Campaign A’s 40.21%. This suggests that the traffic in Campaign B had much higher purchase intent.
+- Campaign B's CTR is nearly **double** that of Campaign A, indicating its content was significantly more engaging.
+- Despite a higher CPM, Campaign B's lower CPC shows it attracted higher-quality clicks.
 
-## 🚀 Recommendations
+---
 
-### Scale Up Campaign B: Allocate a larger portion of the marketing budget to the Campaign B strategy due to its high conversion efficiency and superior engagement.
+## 🔄 Conversion Rate Breakdown
 
-### Re-evaluate Campaign A: Investigate the high drop-off rate between Add to Cart and Purchase in Campaign A to identify potential friction points in the checkout process for that specific segment.
+| Metric | Campaign A | Campaign B |
+|---|---|---|
+| Content View Rate | 36.53% | 30.80% |
+| Cost per Add to Cart | $1.82 | $2.91 |
+| Search Rate | 41.75% | 40.10% |
+| Add to Cart Rate | **66.88%** | 47.45% |
+| Purchase Rate | 40.21% | **59.13%** |
+
+**Key Insight:** While Campaign A drove more users to add items to cart, Campaign B converted those users into buyers at a much higher rate (59.13% vs 40.21%). Campaign B traffic was more **"ready to buy."**
+
+---
+
+## 🔽 Funnel Analysis
+
+| Funnel Stage | Campaign A | Campaign B |
+|---|---|---|
+| Impressions/Reach | 3,177,233 | 2,237,544 |
+| Content Views | 2,576,503 | 1,604,747 |
+| Searches | 154,303 | 180,970 |
+| Add to Cart | 64,418 | 72,569 |
+| Initiated Checkout | 56,370 | 55,740 |
+| Purchases | 37,700 | 26,446 |
+
+- Campaign A had broader **top-of-funnel reach** but suffered from high drop-off, suggesting lower audience quality.
+- Campaign B reached **fewer people but with higher intent**, resulting in more searches and add-to-cart actions relative to its audience size.
+
+---
+
+## 📅 Daily Spend Trends
+
+Both campaigns showed fluctuating daily spend patterns throughout the campaign period:
+
+- **Campaign A** daily spend ranged from ~$1,757 to ~$3,083
+- **Campaign B** daily spend ranged from ~$1,968 to ~$3,112
+
+---
+
+## 🛠️ Tools Used
+
+- **Tableau** — Dashboard design and data visualization
+- **Data Source** — Ad campaign performance metrics
+
+
+---
+
+## 📌 Conclusions & Recommendations
+
+1. **Scale Campaign B** — Its higher conversion rate and lower CPC make it the more efficient campaign for driving purchases.
+2. **Investigate Cart Drop-off in Campaign B** — Despite a lower Add to Cart rate, purchase conversion is strong. Optimizing the cart experience could further boost results.
+3. **Audience Quality > Audience Size** — Campaign B's smaller but more targeted audience outperformed Campaign A's broader reach, reinforcing the value of precise targeting.
