@@ -5,7 +5,8 @@ This project evaluates the effectiveness of two distinct marketing strategies (C
 
 Interactive Dashboard: [https://public.tableau.com/views/ABtesting_17737699525660/DASHBOARD12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 <img width="2048" height="1151" alt="Cost   Conversion Analysis" src="https://github.com/user-attachments/assets/a8ef4b6e-0c9e-4e11-a3b0-1e42d0a153d8" />
-<img width="2048" height="1151" alt="Funnel Comparison" src="https://github.com/user-attachments/assets/a0da0e6b-33c0-4c5e-bc64-b9634c8e82b6" />
+<img width="2048" height="1151" alt="Funnel Comparison" src="https://github.com/user-attachments/assets/28ce2fa2-6ffd-4967-a948-94a46888aefb" />
+
 
 ## 🛠️ Tech Stack
       - Data Visualization: Tableau Desktop / Tableau Public
